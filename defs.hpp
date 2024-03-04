@@ -1,12 +1,13 @@
 #ifndef DEFS_HPP
 #define DEFS_HPP
 #pragma once
-#include "imgui/rlImGui.cpp"
 #include "raylib.h"
+// we dont need to include the .h nor a compile flag ro rlimgui
+//since it gets built when we build this app
+// rlImGui -> raylib ImGui
+#include "imgui.h"
 #include "imgui/rlImGui.cpp"
-#include "raymath.h"
-#include "imgui/imgui/imgui.h"
-#include "imgui/rlImGuiColors.h"
+
 
 #endif
 
